@@ -1,0 +1,29 @@
+
+
+TCP Global Parameters
+----------------------------------------------
+Receive-Side Scaling State          : enabled
+Chimney Offload State               : disabled
+NetDMA State                        : enabled
+Direct Cache Acess (DCA)            : disabled
+Receive Window Auto-Tuning Level    : normal
+Add-On Congestion Control Provider  : none
+ECN Capability                      : disabled
+RFC 1323 Timestamps                 : disabled
+Initial RTO                         : 200
+
+# -- Initial RTO setting require patch
+# -- https://support.microsoft.com/en-us/kb/2472264
+
+
+TCP Window Scaling heuristics Parameters
+----------------------------------------------
+Window Scaling heuristics         : disabled
+Qualifying Destination Threshold  : 3
+Profile type unknown              : normal
+Profile type public               : restricted
+Profile type private              : normal
+Profile type domain               : normal
+
+
+
