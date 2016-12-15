@@ -1,5 +1,5 @@
 {
-  "timeStamp": 1481816495845,
+  "timeStamp": 1481817676577,
   "version": "1.10.2",
   "userSettings": {
     "advancedUserEnabled": true,
@@ -130,7 +130,7 @@
     }
   },
   "hiddenSettingsString": "ignoreRedirectFilters false\nignoreScriptInjectFilters false\npopupFontSize unset\nsuspendTabsUntilReady false",
-  "netWhitelist": "*cbsels.com/*\n*champlain.edu/*\n*cm-elsevier.com/*\n*elsevier.com/*\n*ets-cloud.com/*\n*knewknovel.com/*\n*knovel.com/*\n*reedelsevier.com/*\n*regn.net/*\n*rememberthemilk.com/*\nchamplain.instructure.com/*\nknovel.atlassian.net/*\nnonsolus/*\nreedelsevier.service-now.com/*\nsecure.gravatar.com/*",
+  "netWhitelist": "*cbsels.com/*\n*champlain.edu/*\n*cm-elsevier.com/*\n*elsevier.com/*\n*ets-cloud.com/*\n*github.com/*\n*knewknovel.com/*\n*knovel.com/*\n*reedelsevier.com/*\n*regn.net/*\n*rememberthemilk.com/*\nchamplain.instructure.com/*\nknovel.atlassian.net/*\nnonsolus/*\nreedelsevier.service-now.com/*\nsecure.gravatar.com/*",
   "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "",
