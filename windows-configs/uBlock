@@ -1,6 +1,6 @@
 {
-  "timeStamp": 1481645899701,
-  "version": "1.10.0",
+  "timeStamp": 1481816495845,
+  "version": "1.10.2",
   "userSettings": {
     "advancedUserEnabled": true,
     "alwaysDetachLogger": false,
@@ -10,17 +10,17 @@
     "colorBlindFriendly": false,
     "contextMenuEnabled": false,
     "dynamicFilteringEnabled": true,
-    "externalLists": "https://easylist-downloads.adblockplus.org/easyprivacy.txt\nhttps://easylist-downloads.adblockplus.org/easylist.txt\nhttps://easylist-downloads.adblockplus.org/fanboy-annoyance.txt\nhttps://easylist-downloads.adblockplus.org/adwarefilters.txt\nhttps://raw.githubusercontent.com/zpacman/Blockzilla/master/Blockzilla.txt\n",
+    "externalLists": "https://easylist-downloads.adblockplus.org/adwarefilters.txt\nhttps://raw.githubusercontent.com/zpacman/Blockzilla/master/Blockzilla.txt\n",
     "firewallPaneMinimized": false,
     "hyperlinkAuditingDisabled": true,
     "ignoreGenericCosmeticFilters": false,
     "largeMediaSize": 250,
     "parseAllABPHideFilters": true,
-    "prefetchingDisabled": true,
+    "prefetchingDisabled": false,
     "requestLogMaxEntries": 1000,
     "showIconBadge": false,
     "tooltipsDisabled": true,
-    "webrtcIPAddressHidden": true
+    "webrtcIPAddressHidden": false
   },
   "filterLists": {
     "assets/user/filters.txt": {
@@ -57,47 +57,41 @@
       "instructionURL": "https://github.com/gorhill/uBlock/wiki/Badware-risks",
       "off": true,
       "entryCount": 7,
-      "entryUsedCount": 7
+      "entryUsedCount": 7,
+      "supportName": "github.com"
     },
     "assets/ublock/experimental.txt": {
       "title": "uBlock filters – Experimental",
       "group": "default",
       "off": true,
       "supportURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
-      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters"
+      "instructionURL": "https://github.com/gorhill/uBlock/wiki/Experimental-filters",
+      "supportName": "github.com"
     },
-    "https://easylist-downloads.adblockplus.org/easyprivacy.txt": {
-      "title": "EasyPrivacy",
+    "https://easylist-downloads.adblockplus.org/adwarefilters.txt": {
+      "title": "Adware filters",
       "group": "custom",
       "external": true,
       "off": false,
-      "entryCount": 12253,
-      "entryUsedCount": 11268
+      "entryCount": 178,
+      "entryUsedCount": 178
     },
-    "https://easylist-downloads.adblockplus.org/easylist.txt": {
-      "title": "EasyList",
+    "https://raw.githubusercontent.com/zpacman/Blockzilla/master/Blockzilla.txt": {
+      "title": "Blockzilla",
       "group": "custom",
       "external": true,
       "off": false,
-      "entryCount": 69768,
-      "entryUsedCount": 69398
-    },
-    "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt": {
-      "off": false,
-      "title": "Fanboy’s Annoyance List",
-      "group": "social",
-      "supportURL": "https://forums.lanik.us/",
-      "entryCount": 24958,
-      "entryUsedCount": 24954
+      "entryCount": 982,
+      "entryUsedCount": 802
     },
     "assets/thirdparties/easylist-downloads.adblockplus.org/easylist.txt": {
       "title": "EasyList",
       "group": "ads",
       "homeURL": "https://easylist.to/easylist/easylist.txt",
       "supportURL": "https://forums.lanik.us/",
-      "off": true,
-      "entryCount": 64819,
-      "entryUsedCount": 64786
+      "off": false,
+      "entryCount": 69786,
+      "entryUsedCount": 69763
     },
     "assets/thirdparties/easylist-downloads.adblockplus.org/easyprivacy.txt": {
       "title": "EasyPrivacy",
@@ -107,14 +101,6 @@
       "off": true,
       "entryCount": 11654,
       "entryUsedCount": 22
-    },
-    "http://hosts-file.net/.%5Cad_servers.txt": {
-      "off": false,
-      "title": "hpHosts’ Ad and tracking servers",
-      "group": "multipurpose",
-      "supportURL": "http://hosts-file.net/",
-      "entryCount": 47967,
-      "entryUsedCount": 47964
     },
     "assets/thirdparties/mirror1.malwaredomains.com/files/justdomains": {
       "title": "Malware domains",
@@ -144,7 +130,7 @@
     }
   },
   "hiddenSettingsString": "ignoreRedirectFilters false\nignoreScriptInjectFilters false\npopupFontSize unset\nsuspendTabsUntilReady false",
-  "netWhitelist": "app.knovel.com\nchamplain.instructure.com\nconfluence.elsevier.com\ncontent.knovel.com\nebiz.app.science.regn.net\ngit.cm-elsevier.com\nhttp://elsoxfappp187.science.regn.net/\njira.elsevier.com\nknovel.atlassian.net\nnonsolus\npeoplehub.reedelsevier.com\nqa-content.knewknovel.com\nqa.knewknovel.com\nreedelsevier.service-now.com\nsecure.gravatar.com\nuat-content.knewknovel.com\nuat.knewknovel.com\nwww.champlain.edu\nwww.theatlantic.com",
+  "netWhitelist": "*cbsels.com/*\n*champlain.edu/*\n*cm-elsevier.com/*\n*elsevier.com/*\n*ets-cloud.com/*\n*knewknovel.com/*\n*knovel.com/*\n*reedelsevier.com/*\n*regn.net/*\n*rememberthemilk.com/*\nchamplain.instructure.com/*\nknovel.atlassian.net/*\nnonsolus/*\nreedelsevier.service-now.com/*\nsecure.gravatar.com/*",
   "dynamicFilteringString": "behind-the-scene * 3p-frame noop\nbehind-the-scene * 3p noop",
   "urlFilteringString": "",
   "hostnameSwitchesString": "",
