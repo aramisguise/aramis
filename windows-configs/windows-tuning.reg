@@ -1,9 +1,9 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\services\AFD\Parameters]
-"DynamicSendBufferDisable"=dword:00000000
-"DefaultReceiveWindow"=dword:00080000
+"DefaultReceiveWindow"=dword:00200000
 "DefaultSendWindow"=dword:00080000
+"DynamicSendBufferDisable"=dword:00000000
 
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Internet Settings]
 "MaxConnectionsPerServer"=dword:00000012
