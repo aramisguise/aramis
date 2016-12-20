@@ -1,0 +1,13 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+echo 2 > /sys/block/xvda/queue/rq_affinity
+echo 256 > /sys/block/xvda/queue/nr_requests
+echo 256 > /sys/block/xvda/queue/read_ahead_kb
+
+echo tsc > /sys/devices/system/clocksource/clocksource0/current_clocksource
+echo never > /sys/kernel/mm/transparent_hugepage/enabled
+echo never > /sys/kernel/mm/transparent_hugepage/defrag
+
+exit 0
