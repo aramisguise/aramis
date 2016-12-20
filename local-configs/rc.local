@@ -1,0 +1,9 @@
+#!/bin/sh -e
+#
+# rc.local
+#
+echo 2 > /sys/block/sda/queue/rq_affinity
+echo 256 > /sys/block/sda/queue/nr_requests
+echo 256 > /sys/block/sda/queue/read_ahead_kb
+
+exit 0
