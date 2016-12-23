@@ -28,7 +28,7 @@ Profile type domain               : normal
 
 IP Global Parameters
 ---------------------------------------------
-Default Hop Limit                   : 32 hops
+Default Hop Limit                   : 64 hops
 Neighbor Cache Limit                : 4096 entries per interface
 Route Cache Limit                   : 128 entries per compartment
 Reassembly Limit                    : 66161728 bytes
