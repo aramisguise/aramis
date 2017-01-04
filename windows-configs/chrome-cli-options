@@ -1,0 +1,1 @@
+"C:\path\to\chrome.exe" --disk-cache-dir=C:\cache\chrome --media-cache-dir=C:\cache\chrome --no-proxy-server --enable-dom-distiller --disk-cache-size=5368709120 --media-cache-size=1073741824
