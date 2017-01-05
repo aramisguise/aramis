@@ -17,5 +17,3 @@ elif var_GUESS < var_NUM:
 else:
     print var_TOO_HIGH.format(guess=var_GUESS)
 
-
-
