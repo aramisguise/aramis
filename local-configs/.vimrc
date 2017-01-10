@@ -13,5 +13,3 @@ set cursorline
 " -- always show full path of file
 set laststatus=2
 
-set smartindent
-
