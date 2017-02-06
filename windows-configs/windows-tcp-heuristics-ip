@@ -8,7 +8,7 @@ Receive Window Auto-Tuning Level    : normal
 Add-On Congestion Control Provider  : none
 ECN Capability                      : disabled
 RFC 1323 Timestamps                 : disabled
-Initial RTO                         : 750
+Initial RTO                         : 500
 
 
 TCP Window Scaling heuristics Parameters
