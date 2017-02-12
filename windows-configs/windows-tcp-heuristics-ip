@@ -2,8 +2,8 @@ TCP Global Parameters
 ----------------------------------------------
 Receive-Side Scaling State          : enabled
 Chimney Offload State               : automatic
-NetDMA State                        : enabled
-Direct Cache Acess (DCA)            : disabled
+NetDMA State                        : disabled
+Direct Cache Acess (DCA)            : enabled
 Receive Window Auto-Tuning Level    : normal
 Add-On Congestion Control Provider  : none
 ECN Capability                      : disabled
