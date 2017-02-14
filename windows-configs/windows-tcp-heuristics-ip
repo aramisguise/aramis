@@ -1,19 +1,14 @@
-
-
 TCP Global Parameters
 ----------------------------------------------
 Receive-Side Scaling State          : enabled
-Chimney Offload State               : disabled
-NetDMA State                        : enabled
-Direct Cache Acess (DCA)            : disabled
+Chimney Offload State               : automatic
+NetDMA State                        : disabled
+Direct Cache Acess (DCA)            : enabled
 Receive Window Auto-Tuning Level    : normal
 Add-On Congestion Control Provider  : none
 ECN Capability                      : disabled
 RFC 1323 Timestamps                 : disabled
-Initial RTO                         : 400
-
-# -- Initial RTO setting require patch
-# -- https://support.microsoft.com/en-us/kb/2472264
+Initial RTO                         : 500
 
 
 TCP Window Scaling heuristics Parameters
@@ -21,17 +16,17 @@ TCP Window Scaling heuristics Parameters
 Window Scaling heuristics         : disabled
 Qualifying Destination Threshold  : 3
 Profile type unknown              : normal
-Profile type public               : restricted
+Profile type public               : normal
 Profile type private              : normal
 Profile type domain               : normal
 
 
-IP Global Parameters
+General IP Global Parameters
 ---------------------------------------------
-Default Hop Limit                   : 32 hops
-Neighbor Cache Limit                : 4096 entries per interface
+Default Hop Limit                   : 48 hops
+Neighbor Cache Limit                : 256 entries per interface
 Route Cache Limit                   : 128 entries per compartment
-Reassembly Limit                    : 66161728 bytes
+Reassembly Limit                    : 16767424 bytes
 ICMP Redirects                      : enabled
 Source Routing Behavior             : dontforward
 Task Offload                        : enabled
@@ -43,4 +38,10 @@ Multicast Forwarding                : disabled
 Group Forwarded Fragments           : disabled
 Randomize Identifiers               : enabled
 Address Mask Reply                  : disabled
+
+Current IP Global Statistics
+---------------------------------------------
+Number of Compartments              : 1
+Number of NL clients                : 5
+Number of FL providers              : 4
 

@@ -1,3 +1,5 @@
+# REF http://stackoverflow.com/questions/359109/using-the-scrollwheel-in-gnu-screen
+
 termcapinfo xterm* ti@:te@                                                                                                                   
 
 #termcapinfo rxvt-unicode ti@:te@

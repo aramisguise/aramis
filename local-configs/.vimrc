@@ -7,9 +7,6 @@ set tabstop=4 shiftwidth=4 expandtab
 " -- show cursor line - easier readability
 set cursorline
 
-" -- do not wrap text
-"set nowrap
-"
 " -- line number
 "set number
 
