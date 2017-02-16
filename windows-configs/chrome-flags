@@ -1,0 +1,44 @@
+Default --> Disabled :
+- Password generation
+- Save passwords automatically
+- Force-saving of passwords
+- Manual password generation
+- Affiliation based matching in password manager 
+- Touch initiated drag and drop
+- Google Payments card saving checkbox
+- Only Auto-Reload Visible Tabs
+- Single-click autofill
+- Site Engagement Service
+- Drop sync credentials from password manager
+- Memory coordinator
+- Experimental Credential Manager API
+- Enable offering upload of Autofilled credit cards
+- SafeSearch URLs reporting
+- Fill passwords on account selection
+- Run all Flash content when Flash setting is set to "allow"
+
+Default --> Enabled : 
+- Experimental Validate Asm.js and convert to WebAssembly when valid
+- Experimental WebAssembly
+- GPU rasterization
+- Enable AppContainer Lockdown
+- Token Binding
+- Block scripts loaded via document.write
+- Enable loading IPC optimization for small resources
+- Framebusting requires same-origin or a user gesture
+- Print Scaling
+
+Disabled --> Enabled :
+- Out of process iframes
+- Top document isolation
+
+Enable --> Disabled : 
+- Touch adjustment
+
+Automatic --> Disabled : 
+- Enable touch events 
+
+Default --> Display a verbose state and form warning when password or credit fields are detected on an HTTP Page : 
+- Mark non-secure origins as non-secure
+
+
