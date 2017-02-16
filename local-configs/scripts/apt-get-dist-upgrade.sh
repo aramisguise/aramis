@@ -1,10 +1,10 @@
 #!/bin/bash
 
 
-apt-get -y autoremove &&
+apt-get autoremove -y &&
 apt-get autoclean &&
 apt-get update &&
-apt-get -y dist-upgrade
+apt-get dist-upgrade -y
 
 echo
 echo
