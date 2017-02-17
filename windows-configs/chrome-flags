@@ -1,10 +1,10 @@
 Default --> Disabled :
+[2/17] Touch initiated drag and drop
 - Password generation
 - Save passwords automatically
 - Force-saving of passwords
-- Manual password generation
-- Affiliation based matching in password manager 
-- Touch initiated drag and drop
+- Manual password generation                                                                                                                 
+- Affiliation based matching in password manager
 - Google Payments card saving checkbox
 - Only Auto-Reload Visible Tabs
 - Single-click autofill
@@ -17,10 +17,15 @@ Default --> Disabled :
 - Fill passwords on account selection
 - Run all Flash content when Flash setting is set to "allow"
 
-Default --> Enabled : 
-- Experimental Validate Asm.js and convert to WebAssembly when valid
-- Experimental WebAssembly
-- GPU rasterization
+Default --> Enabled :
+[2/17] GPU rasterization
+[2/17] Experimental Validate Asm.js and convert to WebAssembly when valid
+[2/17] Experimental WebAssembly
+[2/17] Experimental enabled SharedArrayBuffer support in JavaScript
+[2/17] Experimental JavaScript Interpreter
+[2/17] Document Level Event Listeners Passive Default
+[2/17] Touch Event Listeners Passive Default During Fling
+[2/17] Pointer event v1 spec capturing
 - Enable AppContainer Lockdown
 - Token Binding
 - Block scripts loaded via document.write
@@ -28,17 +33,30 @@ Default --> Enabled :
 - Framebusting requires same-origin or a user gesture
 - Print Scaling
 
+Default --> Normal :
+[2/17] UI Layout for the browser's top chrome
+
+Default --> Force All True :
+[2/17] Passive Event Listener Override
+
 Disabled --> Enabled :
+[2/17] Override software rendering list
+[2/17] Experimental canvas features
+[2/17] Enable 2D canvas dynamic rendering mode switching
+[2/17] Experimental JavaScript 
 - Out of process iframes
 - Top document isolation
 
 Enable --> Disabled : 
-- Touch adjustment
+[2/17] Latest stable JavaScript features
+[2/17] Rect-based targeting in views
+[2/17] Touch adjustment
 
 Automatic --> Disabled : 
-- Enable touch events 
+[2/17] Enable touch events 
 
 Default --> Display a verbose state and form warning when password or credit fields are detected on an HTTP Page : 
 - Mark non-secure origins as non-secure
+
 
 
