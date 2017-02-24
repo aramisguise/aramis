@@ -5,3 +5,5 @@ alias ls="ls --classify --color"
 alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -al"
+alias dig="dig +nocomment +noquestion +nocmd +nostat"
+
