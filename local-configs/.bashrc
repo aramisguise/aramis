@@ -43,7 +43,7 @@ unset color_prompt force_color_prompt
 # ---------------------------------------------------
 
 
-#eval `ssh-agent`
+eval `ssh-agent`
 echo
 echo "-----------------------------------------------------------------"
 echo "-- list screens                                                  "
