@@ -1,4 +1,4 @@
-.bak
-.swp
+*.bak
+*.swp
 keys/
 tmp/
