@@ -15,6 +15,7 @@ echo "---------------------------------------------------------------------"
 echo "-- purge: python-pip                                                 "
 echo "---------------------------------------------------------------------"
 sudo -H apt-get purge -y python-pip
+sudo -H apt-get autoremove -y
 
 echo -e "\n\n"
 

@@ -5,4 +5,5 @@ alias ls="ls --classify --color"
 alias la="ls -a"
 alias ll="ls -l"
 alias lla="ls -al"
-alias gitpp="bash ~/ssh-keys git && git pull && git push"
+alias dig="dig +nocomment +noquestion +nocmd +nostat"
+
