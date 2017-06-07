@@ -66,3 +66,21 @@ echo "-----------------------------------------------------------------"
 uptime
 echo -e "\n\n"
 
+# -- ----------------------------------------------------------------
+# -- proxyCommand git.cm-elsevier.com:8000
+# -- through bastion.pathwaystudio.com
+# -- tied to git config in ~/.ssh/config
+# -- ----------------------------------------------------------------
+if lsof -Pi :8000 -sTCP:LISTEN -t >/dev/null ; then
+  echo "Already listending on TCP/8000 for git.cm-elsevier.com:8000"
+else
+  ssh -f -N -D 8000 -i ~/.ssh/pathway-studio/shan-pathway-studio shan@bastion.pathwaystudio.com
+  echo "Now listening on TCP/8000 for git.cm-elsevier.com:8000"
+fi
+
+echo -e "\n\n"
+
+
+
+
+
