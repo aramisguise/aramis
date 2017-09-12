@@ -36,7 +36,7 @@ set ts=2 sts=2 sw=2 expandtab
 set cursorline
 
 " -- line number
-set number
+"set number
 
 " -- always show full path of file
 set laststatus=2
